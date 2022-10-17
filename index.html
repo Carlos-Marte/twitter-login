@@ -2,8 +2,11 @@
 <html lang="es">
 
 <head>
-    <!-- Primary Meta Tags -->
+    <!-- Titulo y icono -->
     <title>Twitter - Login</title>
+    <link rel="icon" href="./images/icon32x.ico" type="image/ico" sizes="32x32">
+
+    <!-- Meta Tags -->
     <meta name="title" content="Twitter - Login">
     <meta name="description" content="Twitter - login">
     <meta name="author" content="Carlos-Marte">
@@ -18,14 +21,16 @@
     <meta property="og:url" content="https://metatags.io/">
     <meta property="og:title" content="Twitter - Login">
     <meta property="og:description" content="Twitter - login">
-    <meta property="og:image" content="https://www.androidauthority.com/wp-content/uploads/2019/01/Twitter-Dark-Mode.jpg">
+    <meta property="og:image"
+        content="https://www.androidauthority.com/wp-content/uploads/2019/01/Twitter-Dark-Mode.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://metatags.io/">
     <meta property="twitter:title" content="Twitter - Login">
     <meta property="twitter:description" content="Twitter - login">
-    <meta property="twitter:image" content="https://www.androidauthority.com/wp-content/uploads/2019/01/Twitter-Dark-Mode.jpg">
+    <meta property="twitter:image"
+        content="https://www.androidauthority.com/wp-content/uploads/2019/01/Twitter-Dark-Mode.jpg">
 
     <!-- Font -->
     <link href="http://fonts.cdnfonts.com/css/segoe-ui-4?styles=18006,18004" rel="stylesheet">
@@ -35,7 +40,79 @@
 </head>
 
 <body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <img src="./-images/twitter-logo.svg" alt="Logo Twitter" class="logo__img">
+        </div>
+        <div class="header__text">
+            <h1 class="header__h1">Lo que está pasando ahora</h1>
+        </div>
+    </header>
 
+    <!-- Main -->
+    <main class="main">
+        <h2 class="main__h2">Únete a Twitter hoy mismo.</h2>
+
+        <div class="media-login">
+            <button class="main__boton main__boton--media-login">
+                <img src="#" alt="Icon Google" class="media-login__img">
+                Registrate con Google
+            </button>
+
+            <button class="main__boton main__boton--media">
+                <img src="#" alt="Icon Apple" class="media-login__img">
+                Registrate con Apple
+            </button>
+        </div>
+
+        <div class="registrarse">
+            <button class="main__boton main__boton--registrarse">
+                Regístrate con el número de teléfon...
+            </button>
+            <p class="registrarse__terminos-condiciones">
+                Al regístrarte, aceptas los <span class="main__span">Términos de servicio</span>
+                y la <span class="main__span">Política de privacidad</span>, incluida la
+                política de <span class="main__span">Uso de Cookies</span>.
+            </p>
+        </div>
+
+        <div class="normal-login">
+            <h3 class="main__h3">¿Ya tienes una cuenta?</h3>
+            <button class="main__boton main__boton--normal-login">
+                Iniciar sesión
+            </button>
+        </div>
+    </main>
+
+    <div class="hero">
+        <img src="./-images/hero.png" alt="Hero Twitter" class="hero__img" loading="lazy">
+        
+        <div class="logo">
+            <img src="./-images/twitter-logo.svg" alt="Logo Twitter" class="logo__img logo__img--hero">
+        </div>
+    </div>
+
+    <footer class="footer">
+        <a href="#" target="_blank" class="footer__a">Información</a>
+        <a href="#" target="_blank" class="footer__a">Centro de Ayuda</a>
+        <a href="#" target="_blank" class="footer__a">Condiciones de Servicio</a>
+        <a href="#" target="_blank" class="footer__a">Política de Privacidad</a>
+        <a href="#" target="_blank" class="footer__a">Política de cookies</a>
+        <a href="#" target="_blank" class="footer__a">Accesibilidad</a>
+        <a href="#" target="_blank" class="footer__a">Información de anuncios</a>
+        <a href="#" target="_blank" class="footer__a">Blog</a>
+        <a href="#" target="_blank" class="footer__a">Estado</a>
+        <a href="#" target="_blank" class="footer__a">Empleos</a>
+        <a href="#" target="_blank" class="footer__a">Recursos para marcas</a>
+        <a href="#" target="_blank" class="footer__a">Publicidad</a>
+        <a href="#" target="_blank" class="footer__a">Marketing</a>
+        <a href="#" target="_blank" class="footer__a">Twitter para empresas</a>
+        <a href="#" target="_blank" class="footer__a">Desarrolladores</a>
+        <a href="#" target="_blank" class="footer__a">Guía</a>
+        <a href="#" target="_blank" class="footer__a">Configuración</a>
+        <a href="#" target="_blank" class="footer__a">&copy; 2022 Twitter, Inc.</a>
+    </footer>
 </body>
 
 </html>
