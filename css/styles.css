@@ -12,7 +12,7 @@
 
     /* Colores */
     --background: #000000;
-    --font-color: #E7E9EA;
+    --global-font-color: #E7E9EA;
 
     --boton-media-login: #FFFFFF;
     --boton-google-font-color: #3C4043;
@@ -24,4 +24,41 @@
     --iniciar-sesion-font-color: #1D9BF0;
 
     --font-info-etc: #71767B;
+}
+
+body {
+    max-width: 768px;
+    background: var(--background);
+    color: var(--global-font-color);
+    font-family: var(--font-segoe-ui);
+}
+
+/* Header */
+.header {
+    width: 100%;
+    /* background-color: red; */
+    padding: 2rem 1.5rem;
+}
+
+.logo {
+    width: 12%;
+    /* background-color: blue; */
+}
+
+.logo__img {
+    width: 100%;
+}
+
+.header__text {
+    margin-top: 2.5rem;
+    width: 100%;
+    /* background-color: green; */
+}
+
+.header__h1 {
+    width: 70%;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: .5px;
+    line-height: 1.2;
 }
