@@ -30,7 +30,7 @@
     --iniciar-sesion-border: #3f4b54;
 
 
-    --font-info-etc: #71767B;
+    --font-footer: #71767B;
 }
 
 body {
@@ -214,4 +214,34 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0 1.5rem;
+    text-align: center;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .5rem;
+}
+
+.footer__a {
+    display: inline-block;
+    /* background-color: red; */
+    color: var(--font-footer);
+    font-size: .9rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer__a:hover {
+    text-decoration: underline;
+}
+
+.footer__contenedor {
+    display: flex;
+    gap: .5rem;
 }
