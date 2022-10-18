@@ -44,13 +44,11 @@ body {
 /* Header */
 .header {
     width: 100%;
-    /* background-color: red; */
     padding: 2rem 1.5rem;
 }
 
 .logo {
     width: 12%;
-    /* background-color: blue; */
 }
 
 .logo__img {
@@ -60,7 +58,6 @@ body {
 .header__text {
     margin-top: 2.5rem;
     width: 100%;
-    /* background-color: green; */
 }
 
 .header__h1 {
@@ -201,7 +198,6 @@ body {
     margin-top: 3rem;
     width: 100%;
     position: relative;
-    /* display: flex; */
 }
 
 .hero__img {
@@ -232,7 +228,6 @@ body {
 
 .footer__a {
     display: inline-block;
-    /* background-color: red; */
     color: var(--font-footer);
     font-size: .9rem;
     text-decoration: none;
