@@ -95,11 +95,14 @@ body {
     justify-content: center;
     align-items: center;
     gap: .4rem;
+
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
 }
 
 .media-login {
     margin-top: 1rem;
-    
+
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -128,7 +131,7 @@ body {
 
 .registrarse {
     margin-top: 2rem;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
