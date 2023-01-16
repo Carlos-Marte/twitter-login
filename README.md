@@ -1,6 +1,6 @@
 # Twitter login clon
 
-:pushpin: Una copia visual de la página de login de Twitter. Está realizado usando `<HTML>`, `<CSS>` y `<JS>`.
+:pushpin: Una copia visual de la página de login de Twitter. Está realizado usando `<HTML>` y `<CSS>`.
 
 :pushpin: Maquetada con grid y flexbox.
 
