@@ -1,10 +1,12 @@
-# TWITTER LOGIN
+# Twitter login clon
 
-:pushpin: Una copia de la página de login de Twitter. Esta realizado usando `<HTML>`, `<CSS>` y `<JS>`.
+:pushpin: Una copia visual de la página de login de Twitter. Está realizado usando `<HTML>`, `<CSS>` y `<JS>`.
 
-:pushpin: Solamente  es visual. Intenté hacerla lo más parecida que pude a la original.
+:pushpin: Maquetada con grid y flexbox.
 
-:link: <a href="https://twitter-login-carlosmartedev.netlify.app/" target="_BLANK" title="¡Ir!">Ir a la página</a>
+:pushpin: Responsive tanto en moviles, tablets y desktop.
+
+:link: <a href="https://twitter-login-carlosmartedev.netlify.app/" target="_blank" title="¡Ir!">Ir a la página</a>
 
 
 ## :camera: Imágenes
@@ -16,4 +18,4 @@
 #### Mobile
 
 ![Vista Mobile](https://i.postimg.cc/8zxVf4tq/twitter-mobile1.png "Mobile")
-![Vista Mobile](https://i.postimg.cc/QCYzGNzR/twitter-mobile2.png "Mobile")
+![Vista Mobile #2](https://i.postimg.cc/QCYzGNzR/twitter-mobile2.png "Mobile #2")
